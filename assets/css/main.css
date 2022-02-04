@@ -1981,7 +1981,7 @@ input, select, textarea {
 			transition: opacity 0.25s ease-in-out;
 			margin-bottom: 0;
 			position: relative;
-			padding: 2.0em 1.5em 1.5em 1.5em;
+			padding: 1.0em 1.0em 1.0em 1.0em;
 			width: 100%;
 		}
 
@@ -1992,7 +1992,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#main > .panel {
-					padding: 2em 1.5em 1.5em 1.5em;
+					padding: 1.0em 1.0em 1.0em 1.0em;
 				}
 
 			}

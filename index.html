@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Y's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    		<script src="https://code.jquery.com/jquery-1.8.1.min.js"></script>
+    		<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+		    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('#topBtn').fadeIn();
+                } else {
+                    $('#topBtn').fadeOut();
+                }
+            });
+
+            $("#topBtn").click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                },250);
+                return false;
+            });
+        });
+
+    </script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#portfolio" class="icon solid fa-folder"><span>Portfolio</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+                        <a href="#blog" class="icon solid fa-blog"><span>Blog</span></a>
+                        <a href="https://instagram.com/_yyyng" class="icon brands fa-instagram"><span>Instagram</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h2>김동영 Dongyeong Kim</h2>
+									<p style="color:black;">- 1991.03.28.<br>- 한양사이버대 컴퓨터공학 재학<br>- 정보처리기능사/워드프로세서/<br>
+										- Swift/Object-C/RxSwift/C/<br>&nbsp;&nbsp;&nbsp;Java/Python/JSP/SQL/<br>
+										&nbsp;&nbsp;&nbsp;HTML/XML/JS/CSS/</p>
+								</header>
+								<a href="#portfolio" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>Work</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="portfolio" class="panel">
+								<header>
+									<h2>Portfolio</h2>
+								</header>
+								<section>
+									<div id="topBtn"></div>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<img src="images/pic01.jpg" alt="">
+                                            <p>Some text for left image.Some text for left image.Some text for left image.Some text for left image.</p>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+                                            <p>Some text for right image.Some text for right image.Some text for right image.</p>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#wrapper" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+										</div>
+									</div>
+								</section>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+                                <p style="color:black;">Email address: yyyng2@naver.com</p>
+							</article>
+
+
+                    
+                    <!-- blog -->
+                        <article id="blog" class="panel">
+                            <header>
+                                <h2>blog</h2>
+                            </header>
+                            <section>
+                                <div id="topBtn"></div>
+                                <iframe src = "blog/index.html" width = "300" height = "200" ></iframe>
+                                </div>
+                            </section>
+                        </article>
+            </div>
+            
+            <!-- Footer -->
+					
+                    <div id="footer">
+                     <ul class="copyright">
+                        <li>Y's Portfolio.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                     </ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

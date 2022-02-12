@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap')
 
 /*
 	Astral by HTML5 UP
@@ -1328,7 +1329,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Noto Sans KR', sans-serif;
 		font-weight: 300;
 		color: #777777;
 		font-size: 20pt;
@@ -1368,7 +1369,7 @@ input, select, textarea {
 		}
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
+		font-weight: bold;
 		color: #363636;
 	}
 
@@ -1439,7 +1440,6 @@ input, select, textarea {
 	p, ul, ol, dl, table, blockquote, form {
 		margin-bottom: 2em;
         color: black;
-        font-family: 'Noto Sans KR', sans-serif;
 	}
 
 /* Table */

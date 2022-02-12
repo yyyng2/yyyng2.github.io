@@ -1437,7 +1437,11 @@ input, select, textarea {
 		clear: both;
 	}
 
-	p, ul, ol, dl, table, blockquote, form {
+	p {
+        font-size: 1em;
+        color: black;
+    }
+    ul, ol, dl, table, blockquote, form {
 		margin-bottom: 2em;
         color: black;
 	}
